@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="bgpup.jpg">
+    <div class="box">
+        <img src="Pup.jpg" alt="Pup Image">
+        <h1>PUP-SIS </h1>
+        <h2>Student Module</h2>
+        <h3>βeta</h3>
+        <h4>Sign in to start your session</h4>
+        <div class='form-row'>
+            <label for='student-number'></label>
+            <input id='student-number' name='student-number' type='text' placeholder="Student number">
+        </div>
+        <div class="dropdown1 dropdown">
+            <button class="dropbtn" onclick="changeText('dropdown1')">Birth Month V</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="changeTextValue('dropdown1', 'January  V')">January</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'Febuary  V')">Febuary</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'March    V')">March</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'April    V')">April</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'May      V')">May</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'June     V')">June</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'July     V')">July</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'August   V')">August</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'SeptemberV')">September</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'October  V')">October</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'November V')">November</a>
+                <a href="#" onclick="changeTextValue('dropdown1', 'December V')">December</a>
+            </div>
+        </div>
+        <div class="dropdown2 dropdown">
+            <button class="dropbtn" onclick="changeText('dropdown2')">Birth Day V</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="changeTextValue('dropdown2', '01    V')">01</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '02    V')">02</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '03    V')">03</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '04    V')">04</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '05    V')">05</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '06    V')">06</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '07    V')">07</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '08    V')">08</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '09    V')">09</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '10   V')">10</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '11   V')">11</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '12   V')">12</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '13   V')">13</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '14   V')">14</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '15   V')">15</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '16   V')">16</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '17   V')">17</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '18   V')">18</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '19   V')">19</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '20   V')">20</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '21   V')">21</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '22   V')">22</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '23   V')">23</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '24   V')">24</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '25   V')">25</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '26   V')">26</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '27   V')">27</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '28   V')">28</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '29   V')">29</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '30   V')">30</a>
+                <a href="#" onclick="changeTextValue('dropdown2', '31   V')">31</a>
+
+            </div>
+        </div>
+        <div class="dropdown3 dropdown">
+            <button class="dropbtn" onclick="changeText('dropdown3')">Birth Year V</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="changeTextValue('dropdown3', '1995')">1995</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '1996')">1996</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '1997')">1997</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '1998')">1998</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '1999')">1999</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2000')">2000</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2001')">2001</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2002')">2002</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2003')">2003</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2004')">2004</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2005')">2005</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2006')">2006</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2007')">2007</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2008')">2008</a>
+                <a href="#" onclick="changeTextValue('dropdown3', '2009')">2009</a>
+            </div>
+        </div>
+        <div class='form-row'>
+            <label for='password'></label>
+            <input id='password' name='password' type='password' placeholder="Password">
+        </div>
+        <button class="custom-button" onclick="goToAnotherPage()">Sign in</button>
+         
+        <h5>I forgot my password</h5>
+       
+        <h6>A student's guide on how to use the Student Information System.</h6>
+    
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
+
